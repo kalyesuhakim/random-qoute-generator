@@ -1,0 +1,54 @@
+#root, html, body{
+  margin: 0;padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.app{
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card{
+  background: whitesmoke;
+  width: 40%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 25px;
+  padding: 2%;
+  box-shadow: 5px 10px;
+}
+.heading{
+  display: flex;
+  align-items: center;
+  height: 580px;
+  font-family: 'Spartan',sans-serif;
+}
+.button{
+  position: relative;
+  outline: none;
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 10px 5px;
+  display: flex;
+  justify-content: center;align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  height: 200px;
+  width: 210px;
+  opacity: 1;
+  background: #ffffff;
+  border: 1px solid rgb(3, 3, 48);
+}
+.button span{
+  color: #164ca7;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  padding: 2px;
+}
